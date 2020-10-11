@@ -41,7 +41,7 @@ const EdgarAllenPoeArticle = () => {
         <article>
           <header>
             <h1>The Life and Times of Edgar Allen Poe</h1>
-            <time datetime="2019-09-15">September 15, 2019</time>
+            <time dateTime="2019-09-15">September 15, 2019</time>
             <Address />
           </header>
           <section>
@@ -80,8 +80,8 @@ const EdgarAllenPoeArticle = () => {
             <h3>Summary</h3>
             <p>
               <b>Edgar Allan Poe</b> (born Edgar Poe;
-              <time datetime="1809-01-19">January 19, 1809</time> &ndash;
-              <time datetime="1849-10-07">October 7, 1849</time>) was an
+              <time dateTime="1809-01-19">January 19, 1809</time> &ndash;
+              <time dateTime="1849-10-07">October 7, 1849</time>) was an
               American writer, editor, and literary critic. Poe is best known
               for his poetry and short stories, particularly his tales of
               mystery and the macabre.
@@ -134,7 +134,7 @@ const EdgarAllenPoeArticle = () => {
               <fieldset>
                 <legend>Personal Information</legend>
                 <div>
-                  <label for="full-name">
+                  <label htmlFor="full-name">
                     Full name:
                     <input
                       type="text"
@@ -145,7 +145,7 @@ const EdgarAllenPoeArticle = () => {
                   </label>
                 </div>
                 <div>
-                  <label for="email">
+                  <label htmlFor="email">
                     Email:
                     <input
                       type="text"
@@ -156,7 +156,7 @@ const EdgarAllenPoeArticle = () => {
                   </label>
                 </div>
                 <div>
-                  <label for="telephone">
+                  <label htmlFor="telephone">
                     Telephone:
                     <input
                       type="tel"
@@ -171,23 +171,23 @@ const EdgarAllenPoeArticle = () => {
                   <header>Age</header>
                   <div>
                     <input type="radio" id="age1" name="age" value="0-21" />
-                    <label for="age1">0-21</label>
+                    <label htmlFor="age1">0-21</label>
                   </div>
                   <div>
                     <input type="radio" id="age2" name="age" value="22-41" />
-                    <label for="age2">22-41</label>
+                    <label htmlFor="age2">22-41</label>
                   </div>
                   <div>
                     <input type="radio" id="age3" name="age" value="42-61" />
-                    <label for="age3">42-61</label>
+                    <label htmlFor="age3">42-61</label>
                   </div>
                   <div>
                     <input type="radio" id="age4" name="age" value="61+" />
-                    <label for="age4">61+</label>
+                    <label htmlFor="age4">61+</label>
                   </div>
                 </div>
                 <div>
-                  <label for="education">
+                  <label htmlFor="education">
                     Highest Education Level:
                     <select id="education">
                       <option value="High school">High school</option>
@@ -202,9 +202,9 @@ const EdgarAllenPoeArticle = () => {
               <fieldset>
                 <legend>Interests</legend>
                 <div>
-                  <label for="favorite-work">
+                  <label htmlFor="favorite-work">
                     Favorite Poe Work:
-                    <select name="favorite-work" multiple="multiple">
+                    <select id="favorite-work" name="favorite-work" multiple="multiple">
                       <optgroup label="Poems">
                         <option value="The Raven">
                           &ldquo;The Raven&rdquo;
@@ -247,7 +247,7 @@ const EdgarAllenPoeArticle = () => {
             <p>
               It was at this time that his publishing career began with the
               anonymous collection <cite>Tamerlane and Other Poems</cite> (
-              <time datetime="1827">1827</time>), credited only to &ldquo;a
+              <time dateTime="1827">1827</time>), credited only to &ldquo;a
               Bostonian&rdquo;. Edgar Poe and John Allan reached a temporary
               rapprochement after the death of Frances Allan in 1829. Poe later
               failed as an officer cadet at West Point, declaring a firm wish to
@@ -396,14 +396,14 @@ const EdgarAllenPoeArticle = () => {
           <section>
             <h3>Death</h3>
             <p>
-              On <time datetime="1849-10-03">October 3, 1849</time>, Poe was
+              On <time dateTime="1849-10-03">October 3, 1849</time>, Poe was
               found delirious on the streets of Baltimore,
               <q cite="https://en.wikipedia.org/wiki/Edgar_Allan_Poe">
                 in great distress, and... in need of immediate assistance
               </q>
               , according to Joseph W. Walker who found him.<sup>5</sup> He was
               taken to the Washington Medical College where he died on
-              <time datetime="1849-10-07T09:00:00.000Z">
+              <time dateTime="1849-10-07T09:00:00.000Z">
                 Sunday, October 7, 1849 at 5:00 in the morning
               </time>
               .<sup>6</sup> He was not coherent long enough to explain how he
