@@ -19,6 +19,7 @@ ReactDOM.render(
       <Route>
         <App />
       </Route>
+      
     </Switch>
   </Router>,
   document.getElementById("root")

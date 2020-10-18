@@ -6,7 +6,7 @@ const DynamicArticle = (props) => {
     <article>
       {/* this is an example of how you insert props into a react component */}
       <div><h1>{props.article.title}</h1></div>
-      <div><i>{props.article.author}</i></div>
+      <p><i>{props.article.author}</i></p>
       <div><a href="{props.article.authorEmail}">{props.article.authorEmail}</a> </div>
       <div><time dateTime="{props.article.displayDate}">{props.article.displayDate}</time></div>
       <div>{props.article.timeStamp}</div>
