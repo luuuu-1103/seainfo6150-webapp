@@ -1,19 +1,21 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ArticleListItem from "../ArticleListItem/ArticleListItem.jsx";
+import ArticleListItem from "../ArticleListItem/ArticleListItem";
+import "./ArticleList.module.css";
 
 const ArticleList = (props) => {
   let displayContent;
 
   if (props.articles.length) {
     displayContent = (
-      <ul>
+      <ul className="articleStyle">
         {props.articles.map((article) => (
           <ArticleListItem article={article} key={article.slug} />
         ))}
       </ul>
     );
-  } else {
+  } 
+  else {
     displayContent = <div>You have no data!</div>;
   }
 

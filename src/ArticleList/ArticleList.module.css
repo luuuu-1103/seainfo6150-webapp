@@ -1,0 +1,7 @@
+.articleStyle{
+    border-style: groove;
+    border-color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, rgb(175, 64, 64) 0%, white 20%);
+}
