@@ -10,3 +10,15 @@
   list-style-type: none;
   padding: 15px;
 }
+@media screen and (min-width: 550px) {
+  article {
+    padding: 1rem 1rem;
+    font-size: medium;
+  }
+}
+ @supports (display: grid){
+   .container {
+     display: grid;
+     grid-template-columns: 1fr;
+   }
+ }
