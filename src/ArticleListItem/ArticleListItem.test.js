@@ -1,5 +1,6 @@
 import React from "react";
 import ArticleListItem from "./ArticleListItem";
+
 const article = {
   slug: "181122102925-statue-of-liberty-crown",
   title: "The Statue of Liberty's torch heads to new museum",

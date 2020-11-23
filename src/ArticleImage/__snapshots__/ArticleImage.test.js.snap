@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleListItem tests renders correctly 1`] = `
+<div>
+  <div>
+    <img
+      class="image"
+    />
+    <h2
+      class="title"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,15 @@
+.image{
+    border-radius: 50%;
+    border: 5px solid red;
+    width: 150px;
+    display: flex;
+    position: sticky;
+}
+
+.title{
+    color: #c00;
+    font-size: 1em;
+    margin: 0 0 20px;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
